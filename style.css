@@ -173,7 +173,7 @@ a:link {
 }
 .listItem {
   display: flex;
-  color: #ffff;
+  color: #ffff !important;
   flex-direction: row;
   justify-content: start;
   margin-left: -100px;
@@ -254,6 +254,9 @@ li {
   text-align: center;
 
   color: #525c6d;
+}
+.Hide {
+  display: none !important;
 }
 .FoodCard {
   padding: 0px;
